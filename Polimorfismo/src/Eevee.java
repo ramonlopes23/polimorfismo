@@ -14,4 +14,6 @@ public class Eevee{
     public String especial(){
         return "Tri-ataque";
     }
+
+    
 }
