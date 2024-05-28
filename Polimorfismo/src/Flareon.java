@@ -1,15 +1,24 @@
-public class Flareon extends Eevee {    
+public class Flareon extends Eevee { 
+    
+    public Flareon(String tipo, int altura, int hp, double peso) {
+        super(tipo, altura, hp, peso);
+    }
+
+    @Override
+    public void imprimir() {
+        super.imprimir();
+    }
     
     @Override
     public String ataque(){
-        return "Trovoada- Thunder Shock";
+        return "Flash Fire";
     }
     @Override
     public String defesa(){
-        return "Carga- Wild Charge";
+        return "Carga- Fire charge";
     }
     @Override
     public String especial(){
-        return "Raio- Thunder";
+        return "Chama- Flame";
     }
 }

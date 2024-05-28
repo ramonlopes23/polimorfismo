@@ -3,6 +3,14 @@ public class Eevee {
     private int altura, hp;
     private double peso;
 
+    //metodo construtor
+    /*public Eevee(String tipo, int altura, int hp, double peso) {
+        this.tipo = tipo;
+        this.altura = altura;
+        this.hp = hp;
+        this.peso = peso;
+    }
+    */
 
       // Método de ataque
       public String ataque() {

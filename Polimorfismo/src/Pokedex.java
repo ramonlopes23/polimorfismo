@@ -2,17 +2,17 @@ public class Pokedex {
     public static void main(String[] args) throws Exception {
         
         Eevee e = new Eevee("Normal", 3, 55, 6.5);
-        Jolteon j = new Jolteon("Elétrico", 10, 65, 25, "Golpe eletrico");
-        Espeon es = new Espeon("Psiquico", 10, 65, 25, "Golpe psiquico");
-        Flareon f = new Flareon("Fogo", 10, 65, 25, "Golpe de fogo");
-        Glaceon g = new Glaceon("Gelo", 10, 65, 25, "Golpe de gelo");
-        Leafeon l = new Leafeon("Folha", 10, 65, 25, "Golpe folha");
-        Sylveon s = new Sylveon("Fairy", 10, 95, 25, "Golpe fada");
-        Umbreon u = new Umbreon("Noturno", 10, 95, 25, "Golpe noturno");
-        Vaporeon v = new Vaporeon("Áquatico", 10, 130, 25, "Golpe aquatico");
+        Jolteon j = new Jolteon("Elétrico", 10, 65, 25);
+        Espeon es = new Espeon("Psiquico", 10, 65, 25);
+        Flareon f = new Flareon("Fogo", 10, 65, 25);
+        Glaceon g = new Glaceon("Gelo", 10, 65, 25);
+        Leafeon l = new Leafeon("Folha", 10, 65, 25);
+        Sylveon s = new Sylveon("Fairy", 10, 95, 25);
+        Umbreon u = new Umbreon("Noturno", 10, 95, 25);
+        Vaporeon v = new Vaporeon("Áquatico", 10, 130, 25);
 
         //Eevee
-        System.out.println("Eu sou Eevee");
+        System.out.println("Eu sou Eevee");  
         System.out.println("Ataque: "+e.ataque());
         System.out.println("Defesa: "+e.defesa());
         System.out.println("Especial: "+e.especial());
