@@ -59,6 +59,14 @@ public class Eevee {
         this.peso = peso;
     }
 
+
+    public void imprimir() {
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Altura: " + altura);
+        System.out.println("HP: " + hp);
+        System.out.println("Peso: " + peso);
+      
+    }
   
     
 }
