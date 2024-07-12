@@ -1,7 +1,7 @@
 public class Pokedex {
     public static void main(String[] args) throws Exception {
         
-        Eevee e = new Eevee("Normal", 3, 55, 6.5);
+        Eevee e = new Eevee("Normal", 3, 55, 6);
         Jolteon j = new Jolteon("Elétrico", 10, 65, 25);
         Espeon es = new Espeon("Psiquico", 10, 65, 25);
         Flareon f = new Flareon("Fogo", 10, 65, 25);
